@@ -114,13 +114,13 @@ Responsável por:
 
 Documentação detalhada disponível em:
 
-[`docs/requirements.md`](#requirements.md)  -> requisitos do sistema (RF, RNF, regras de negócio, casos de uso, fluxos)
-[`docs/api.md`](#api.md)           -> como consumir a API (endpoints, requests, responses)
-[`docs/architecture.md`](#arquicture.md)  -> estrutura interna do sistema (arquitetura, camadas, decisões técnicas)
-[`docs/briefing.md`](#briefing.md)      -> contexto inicial e definições do projeto
-[`docs/validation.md`](#validation.md)    -> validação dos requisitos ao final do projeto
-[`docs/adr/`](/docs/adr/)             -> decisões arquiteturais registradas
-[`docs/diagrams/`](/docs/diagrams)        -> diagramas (arquitetura, fluxo, banco de dados)
+[`docs/requirements.md`](#requirements.md) -> requisitos do sistema (RF, RNF, regras de negócio, casos de uso, fluxos)  
+[`docs/api.md`](#api.md)           -> como consumir a API (endpoints, requests, responses)  
+[`docs/architecture.md`](#arquicture.md)  -> estrutura interna do sistema (arquitetura, camadas, decisões técnicas)  
+[`docs/briefing.md`](#briefing.md)      -> contexto inicial e definições do projeto  
+[`docs/validation.md`](#validation.md)    -> validação dos requisitos ao final do projeto  
+[`docs/adr/`](/docs/adr/)             -> decisões arquiteturais registradas  
+[`docs/diagrams/`](/docs/diagrams)        -> diagramas (arquitetura, fluxo, banco de dados)  
 
 ---
 
