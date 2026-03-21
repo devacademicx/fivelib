@@ -121,6 +121,7 @@ Documentação detalhada disponível em:
 [`docs/validation.md`](#validation.md)    -> validação dos requisitos ao final do projeto  
 [`docs/adr/`](/docs/adr/)             -> decisões arquiteturais registradas  
 [`docs/diagrams/`](/docs/diagrams)        -> diagramas (arquitetura, fluxo, banco de dados)  
+[`docs/branch.md`](/docs/branch.md)        -> explicação sobre a estrutura da branch do projeto 
 
 ---
 
