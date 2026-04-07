@@ -1,21 +1,10 @@
-> Lembrem de usar ás tags para melhor rastreamento.
+> Obrigátorio: Ter um review, usar ás tags e direciona ao quadro de tarefas.
 
 # Pull Request
 
 ## O que foi feito
 
 Descreva de forma direta o que foi implementado ou alterado.
-
-
----
-
-## Como testar
-
-Passos simples para validar a mudança:
-
-1. ...
-2. ...
-3. ...
 
 ---
 
