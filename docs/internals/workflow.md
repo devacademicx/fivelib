@@ -52,7 +52,7 @@ git log feat/nome-da-sua-tarefa..origin/develop
 git merge origin/develop
 ```
 
-> **Dica de Segurança:** Se houver conflitos em arquivos críticos como `docker-compose.yml`, o Git pausará o merge. Verifique o arquivo antes de dar o `git add`.
+> **Dica de Segurança:** Se houver conflitos em arquivos críticos como `docker-compose.yml`, o Git pausará o merge. Verifique o arquivo antes de dar o `git add`. Caso você queira reverte a atualização do merge use o `git merge --abort` ele irá reverte para o estado anterior ao merge.
 
 ### D. Salvando e Enviando
 
