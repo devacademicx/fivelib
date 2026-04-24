@@ -13,6 +13,7 @@ estilizados reutilizáveis (característica própria do react)
   --color-primary: #262626; /*preto/cinza escuro do background*/
   --color-secondary: #33cc33; /*Verde da tipografia/elementos diversos*/
   --font-display: "Inter", sans-serif;
+  --shadow-cards: 0 10px 20px rgba(0,0,0,0.5);/*Sombra dos cards de login/resgister*/
 }
 
 /*Torna o background escuro(color_primary definida acima) em todo o projeto*/
