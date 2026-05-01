@@ -8,6 +8,15 @@ services:
       - "8001:8001"
     volumes:
       - ./backend:/app
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    sysctls:
+      - net.ipv6.conf.all.disable_ipv6=1
+    env_file:
+      - ./backend/.env
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
     command: uvicorn main:app --host 0.0.0.0 --port 8001 --reload
     restart: unless-stopped
 
@@ -18,12 +27,11 @@ services:
     container_name: fivelib-frontend
     ports:
       - "3000:3000"
-      - "5173:5173"         # Porta padrão de React/Next/Vite.
     volumes:
       - ./frontend:/app       # Sincroniza o código do front para hot-reload.
       - /app/node_modules     # Protege os node_modules internos do container.
     environment:
-      - VITE_API_URL=http://localhost:8001 # Variável para o front achar a API.
-    # depends_on:
-    #  - fivelib-api           # Garante que o front só sobe DEPOIS da API.
+      - NEXT_PUBLIC_API_URL=http://localhost:8001
+    depends_on:
+      - fivelib-api           # Garante que o front só sobe DEPOIS da API.
     restart: unless-stopped
