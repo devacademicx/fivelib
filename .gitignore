@@ -4,3 +4,8 @@ notas/
 __pycache__/
 .pytest_cache/
 .venv/
+
+# Arquivos do Supabase
+supabase/
+supabase/.temp/
+EOF

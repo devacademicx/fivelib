@@ -6,3 +6,6 @@ alembic
 pydantic
 pydantic-settings
 python-dotenv
+python-multipart
+psycopg2-binary
+supabase
